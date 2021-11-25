@@ -79,12 +79,12 @@ section {
 /* Hero Style Start */
 .hero {
   background-image: url("./images/hero-bg.jpeg");
-  height: 600px;
   background-size: cover;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
+  background-position: center;
 }
 
 .hero-cta {
@@ -143,19 +143,6 @@ section {
 }
 /* Hero Style End */
 
-.intro p {
-  line-height: 1.7;
-  color: #39a6b2;
-  width: 80%;
-  font-size: 20px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.steps {
-  background: #fce138;
-}
-
 .section-title {
   font-size: 48px;
   color: #024e76;
@@ -172,6 +159,19 @@ section {
 
 .secondary-border {
   border-color: #39a6b2;
+}
+
+.intro p {
+  line-height: 1.7;
+  color: #39a6b2;
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.steps {
+  background: #fce138;
 }
 
 .step h3 {
@@ -244,14 +244,6 @@ section {
 .trainer-bio {
   padding: 25px;
   line-height: 1.3;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .trainer-bio h3 {
@@ -336,6 +328,13 @@ section {
 }
 
 /* reach out styles end */
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
 .flex-row {
   display: flex;
 }
