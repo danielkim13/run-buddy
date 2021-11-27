@@ -234,7 +234,7 @@ section {
 }
 
 .hero-form button {
-  color: #fce138;
+  color: var(--primary-color);
   background-color: var(--secondary-color);
   border: none;
   padding: 10px 20px;
@@ -258,7 +258,7 @@ section {
 }
 
 .primary-border {
-  border-color: #fce138;
+  border-color: var(--primary-color);
 }
 
 .secondary-border {
@@ -275,7 +275,7 @@ section {
 }
 
 .steps {
-  background: #fce138;
+  background: var(--primary-color);
 }
 
 .step h3 {
